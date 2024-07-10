@@ -6,12 +6,12 @@ It's on [dockerhub](https://hub.docker.com/r/naotokubota/whippet) and [github](h
 
 ## tags and links
 
-- `1.0` [(master/Dockerfile)](https://github.com/NaotoKubota/Whippet/blob/master/Dockerfile)
+- `1.6.1` [(master/Dockerfile)](https://github.com/NaotoKubota/Whippet/blob/master/Dockerfile)
 
 ## how to build
 
 ```sh
-docker pull naotokubota/whippet:1.0
+docker pull naotokubota/whippet:1.6.1
 ```
 
 or
@@ -19,11 +19,11 @@ or
 ```sh
 git clone git@github.com:NaotoKubota/Whippet.git
 cd Whippet
-docker build --rm -t naotokubota/whippet:1.0 .
+docker build --rm -t naotokubota/whippet:1.6.1 .
 ```
 
 ## running
 
 ```sh
-docker run --rm -it naotokubota/whippet:1.0
+docker run --rm -it naotokubota/whippet:1.6.1
 ```
